@@ -1,0 +1,9 @@
+{
+  "name": "tailwind-base-bug",
+  "scripts": {
+    "build": "tailwindcss -i in.css -o out.css --jit --purge='./example.txt'"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.2.2"
+  }
+}
